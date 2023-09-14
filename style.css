@@ -1,0 +1,57 @@
+@charset 'UTF-8';
+
+.h1pricipal{
+    background-color: rgb(12, 28, 61);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+}
+
+.contatos{ 
+    color: rgb(24, 13, 63); 
+    font-weight: bold;
+    text-align:bottom;
+    text-decoration: none;
+}
+
+.contatos:hover{
+    color: rgb(23, 52, 112);
+    text-decoration: underline;
+}
+
+.certificados{
+    height: 200px;
+    width: 200px;
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+}
+
+.menu{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.itemmenu{
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.itemmenu:hover{
+    color: rgb(238, 74, 74);
+    text-decoration: underline;
+}
+
+.itemmenu:visited{
+    color: rgb(151, 131, 223);
+}
